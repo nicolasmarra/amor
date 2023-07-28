@@ -4,6 +4,7 @@
 
   --primary-color: #73287E;
   --second-color : rgba(222, 133, 82, 0.25);
+  --text-color: #DE8552;
 
 
   --base-font-size: 62.5%;
@@ -178,4 +179,46 @@ section p
 section .col-2 img
 {
   max-width: 100%;
+}
+
+section #cards
+{
+  font-family: 'DM Sans';
+
+  margin-block: 2rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+
+}
+
+section .card
+{
+  background-color: #fff;
+  padding-block: 2rem;
+  padding-inline: 1rem;
+  width: 100%;
+  margin-inline: auto;
+
+}
+
+section .card img
+{
+  max-width: 4rem;
+  max-height: 2rem;
+}
+
+section .card .main
+{
+  display: grid;
+  grid-template-columns: auto 1fr;
+  margin-inline: 3rem;
+  
+}
+
+section .card h5
+{
+  font-size: 1rem;  
+  color: var(--text-color);
+  font-weight: bold;
 }
