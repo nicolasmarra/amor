@@ -41,6 +41,10 @@ body {
 
 }
 
+
+ul{
+  list-style: none;
+}
 header
 {
   margin-block: 1.5rem; 
@@ -137,7 +141,7 @@ section#about-us
 
 section .wrapper
 {
-  padding-block: 6rem;
+  padding-block: 5rem;
   padding-inline: 2.5rem;
 
 }
@@ -182,6 +186,9 @@ section .col-2 img
   max-width: 100%;
 }
 
+/* --------- WHAT WE DO ------------ */
+
+
 section #cards
 {
   font-family: 'DM Sans';
@@ -201,7 +208,7 @@ section .card
   width: 100%;
   margin-inline: auto;
 
-  border: 1px solid var(--text-color);
+  border: 0.8px solid var(--text-color);
   border-radius: 0.8rem;
 }
 
@@ -222,5 +229,71 @@ section .card h5
 {
   font-size: 1rem;  
   color: var(--text-color);
+  font-weight: 500;
+}
+
+section .card h5 span
+{
   font-weight: bold;
+}
+
+
+/* --------- ACTIVITIES ------------ */
+
+section#activities 
+{
+  background-color: rgba(222, 133, 82, 0.25);
+}
+
+/* --------- CONTACT-US ------------ */
+
+section#contact-us
+{
+  background-color: #fff;
+
+}
+
+section#contact-us p
+{
+  font-size: 2.1rem;
+}
+
+section#contact-us p span
+{
+  color: var(--primary-color);
+}
+
+section#contact-us .infos
+{
+  padding-block: 1rem;
+  
+}
+
+section#contact-us .infos img
+{
+  max-width: 2rem;
+  max-height: 2rem;
+}
+
+section#contact-us .infos ul
+{
+  display: flex;
+  flex-direction: column;
+  gap: 0.8rem;
+}
+
+section#contact-us .infos ul li
+{
+  display: flex;
+  flex-direction: row;
+  
+  justify-content: left;
+  align-items: center;
+
+  gap: 1.5rem;
+
+  color: var(--primary-color);
+
+  font-size: 1.5rem;
+  font-family: 'Inter';
 }
