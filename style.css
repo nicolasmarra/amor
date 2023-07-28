@@ -200,6 +200,8 @@ section .card
   width: 100%;
   margin-inline: auto;
 
+  border: 1px solid var(--text-color);
+  border-radius: 0.8rem;
 }
 
 section .card img
@@ -212,8 +214,7 @@ section .card .main
 {
   display: grid;
   grid-template-columns: auto 1fr;
-  margin-inline: 3rem;
-  
+  margin-inline: 3rem;  
 }
 
 section .card h5
