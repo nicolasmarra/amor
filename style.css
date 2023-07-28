@@ -95,6 +95,7 @@ section#home #block
   width: 100%;
 
   padding-block: 1.5%;
+  margin-block: 1rem;
 
   display: flex;
   flex-direction: column;
