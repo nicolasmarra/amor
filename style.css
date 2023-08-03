@@ -47,7 +47,7 @@ ul{
 }
 header
 {
-  margin-block: 1.5rem; 
+  padding-block: 0.7rem; 
   margin-inline: 0;
 
 
@@ -56,6 +56,20 @@ header
   justify-content: space-around;
 
   gap: 25rem;
+
+
+  position: fixed;
+  top: 0;
+  
+  width: min(45rem, 100%);
+  
+  z-index: 100;
+  background-color: rgb(246,224,211);
+}
+
+header.scroll
+{
+  background-color: var(--primary-color);  
 }
 
 button 
@@ -63,8 +77,6 @@ button
   text-decoration: none;
   border: none;
   background-color: transparent;
-
-
 }
 
 header button{
@@ -77,28 +89,25 @@ section#home
 {
   position: relative;
   max-height: 100%;
-  height: 45rem;
+  height: 60rem;
+
+  background: url('assets/photo_home.png');
+  background-size: cover;
+  background-position: 50%;
+  margin-bottom: 10rem;
 }
 
-section#home img
-{
-  max-width: 100%;
-  width:100%;
-  height: 35rem;
-  display: block;
-}
 
 section#home #block
 {
 
   background-color: var(--primary-color);
   color: #fff;
-
-  font-weight: 100;
+  opacity: 0.9;
 
   width: 100%;
 
-  padding-block: 1.5%;
+  padding-block: 1.5rem;
   margin-block: 1rem;
 
   display: flex;
@@ -106,29 +115,27 @@ section#home #block
   justify-content: center;
   gap: 1rem;
 
-  max-height: 10rem;
+  height: 18rem;
 
   position: absolute;
-  top: 30%;
-  left: 20%
+  top: 55%;
+  left: 50%;
 
   transform: translate(-50%, -50%);
   text-align: center;
 
-  background-color: rgba(115, 40, 126, 0.5);
 }
 
 section#home #block h2
 {
     font-family: 'Alfa Slab One';
-    font-size: 2.5rem;
-
+    font-size: 3.2rem;
 }
 
 section#home #block h4
 {
   font-family: 'Inter';
-  font-size: 0.8rem;
+  font-size: 1rem;
 }
 
 /* --------- ABOUT US ------------ */
