@@ -47,9 +47,8 @@ ul{
 }
 header
 {
-  padding-block: 0.7rem; 
+  padding-block: 1.2rem; 
   margin-inline: 0;
-
 
   display: flex;
   flex-direction: row;
@@ -303,4 +302,38 @@ section#contact-us .infos ul li
 
   font-size: 1.5rem;
   font-family: 'Inter';
+}
+
+/* --------- FOOTER ------------ */
+
+footer
+{
+  background-color: var(--primary-color);
+  padding-block: 1.5rem;
+  padding-inline: 2.5rem;
+  
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+
+  font-family: 'Inter';
+  font-size: 1.2rem;
+  text-align: left;
+  color: white;
+
+}
+
+footer .rights
+{
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+}
+
+footer .social-network ul
+{
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
 }
