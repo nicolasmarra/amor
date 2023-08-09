@@ -66,9 +66,19 @@ header
   background-color: rgb(246,224,211);
 }
 
-header.scroll
+header.scrolled
 {
   background-color: var(--primary-color);  
+}
+
+header.scrolled img#logo
+{
+  content: url('assets/logo_amor_white.png');
+}
+
+header.scrolled img#open-menu
+{
+  content: url('assets/icon_open_menu_white.svg');
 }
 
 button 
@@ -83,6 +93,8 @@ header button{
 
   cursor: pointer;
 }
+
+
 
 section#home
 {
