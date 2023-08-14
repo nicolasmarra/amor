@@ -41,6 +41,9 @@ body {
 
 }
 
+a{
+  text-decoration: none;
+}
 
 ul{
   list-style: none;
@@ -90,10 +93,58 @@ button
 
 header button{
   padding: 0.26rem 0.26rem;
-
   cursor: pointer;
 }
 
+/* --------- NAVIGATION ------------ */
+
+
+nav
+{
+  background-color: var(--primary-color);
+  height: 100vh;
+  padding-block : 25rem;
+}
+
+nav ul
+{
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+nav a 
+{
+  font-family: 'Inter';
+  font-weight: 600;
+  font-size: 1.8rem;
+  color: white;
+
+}
+
+nav .social-network
+{
+  margin-block: 10rem;
+}
+
+nav .social-network ul 
+{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+nav.hidden
+{
+  display: none;
+}
+
+nav.visible
+{
+  display: block;
+}
+
+/* --------- HOME ------------ */
 
 
 section#home
