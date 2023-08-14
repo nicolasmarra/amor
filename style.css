@@ -96,6 +96,7 @@ header button{
   cursor: pointer;
 }
 
+
 /* --------- NAVIGATION ------------ */
 
 
@@ -119,7 +120,6 @@ nav a
   font-weight: 600;
   font-size: 1.8rem;
   color: white;
-
 }
 
 nav .social-network
@@ -139,10 +139,11 @@ nav.hidden
   display: none;
 }
 
-nav.visible
+div#page.hidden
 {
-  display: block;
+  display: none;
 }
+
 
 /* --------- HOME ------------ */
 
