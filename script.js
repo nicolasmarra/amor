@@ -26,8 +26,8 @@ function openMenu()
         my_menu.classList.add('hidden')
         my_header.classList.remove('scrolled')
         my_page.classList.remove("hidden")
-        body.style.backgroundColor = "rgba(222, 133, 82, 0.25)";
-        body.style.overflow = "hidden";   
+        body.style.backgroundColor = "rgb(246,224,211)";
+        body.style.overflow = "auto";   
     }
     else{
 
@@ -36,6 +36,6 @@ function openMenu()
         my_header.classList.add('scrolled')
         my_page.classList.add("hidden")
         body.style.backgroundColor = "#73287E";
-        body.style.overflow = "auto";
+        body.style.overflow = "hidden";
     }
 }
