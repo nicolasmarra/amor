@@ -19,7 +19,7 @@
 
 html
 {
-  
+  scroll-behavior: smooth;
   font-size: var(--base-font-size);
 }
 
@@ -96,6 +96,7 @@ button
   text-decoration: none;
   border: none;
   background-color: transparent;
+
 }
 
 header button{
@@ -119,6 +120,7 @@ nav ul
   display: flex;
   flex-direction: column;
   gap: 2rem;
+  
 }
 
 nav a 
@@ -193,6 +195,7 @@ section#home #block
 
   transform: translate(-50%, -50%);
   text-align: center;
+  transition: transform 0.2s;
 
 }
 
