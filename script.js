@@ -51,3 +51,25 @@ function closeMenu()
     body.style.backgroundColor = "rgb(246,224,211)";
     body.style.overflow = "auto";
 }
+
+ScrollReveal({
+    origin: 'top',
+    distance: '100px',
+    duration: 300
+  }).reveal(`
+  #home, 
+  #home .block, 
+  #about-us,
+  #about-us .col-1,
+  #about-us .content,
+  #what-we-do,
+  #what-we-do .col-1,
+  #what-we-do .content,
+  #what-we-do .col-2,
+  #what-we-do #cards,
+  #what-we-do .card,
+  #contact-us .col-1,
+  #contact-us .content,
+  #contact-us .col-2,
+  #contact-us .infos
+  `)
