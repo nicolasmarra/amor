@@ -62,14 +62,18 @@ ScrollReveal({
   #about-us,
   #about-us .col-1,
   #about-us .content,
+  #about-us img,
   #what-we-do,
   #what-we-do .col-1,
   #what-we-do .content,
   #what-we-do .col-2,
   #what-we-do #cards,
   #what-we-do .card,
+  #what-we-do img,
   #contact-us .col-1,
   #contact-us .content,
   #contact-us .col-2,
-  #contact-us .infos
+  #contact-us .infos,
+  #contact-us img
   `)
+

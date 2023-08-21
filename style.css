@@ -70,6 +70,8 @@ header
   background-color: rgb(246,224,211);
 }
 
+
+
 header.scrolled
 {
   background-color: var(--primary-color);  
@@ -106,7 +108,6 @@ header button{
 
 
 /* --------- NAVIGATION ------------ */
-
 
 nav
 {
@@ -175,7 +176,7 @@ section#home #block
 
   background-color: var(--primary-color);
   color: #fff;
-  opacity: 0.9;
+  opacity: 0.85;
 
   width: 100%;
 
@@ -410,4 +411,52 @@ footer .social-network ul
   display: flex;
   flex-direction: row;
   gap: 1rem;
+}
+
+
+/* --------- RESPONSIVITY ------------ */
+
+@media (min-width: 1024px) 
+{
+
+  /* --------- GENERAL ------------ */
+
+  body,header {
+
+    width: min(150rem, 100%);
+  
+  }
+
+  header 
+  {
+    display: flex;
+    justify-content: start;
+
+    padding-left: 3rem;
+  
+  }
+
+  header button {
+  display: none;
+  }
+
+  /* --------- NAVIGATION ------------ */
+
+
+  /* --------- HOME ------------ */
+
+section#home #block
+{
+  width: 40%;
+
+  padding-inline: 1.5rem;
+  margin-inline: 1rem;
+
+  padding-block: 1.2rem;
+  margin-block: 8rem;
+
+  top: 45%;
+}
+
+
 }
