@@ -529,6 +529,55 @@ section#about-us .col-1
   order: 2;
 }
 
+/* --------- WHAT WE DO ------------ */
+
+
+section#what-we-do
+{
+  padding-block: 3rem;
+}
+
+section#what-we-do .col-1
+{
+  text-align: center;  
+  white-space: nowrap;
+}
+
+section#what-we-do .col-1 h2 br
+{
+  display: none;
+}
+
+section#what-we-do .col-1 .content p
+{
+  text-align: center;
+}
+
+section #cards
+{
+  margin-top: 4rem;
+  flex-direction: row;
+  justify-content: center;
+  gap: 3rem;
+
+}
+
+section .card
+{
+  padding-block: 3rem;
+  padding-inline: 1rem;
+  width: 30%;
+  max-width: 70%;
+  margin-inline: auto;
+
+}
+
+
+section .card h5
+{
+  font-size: 1.2rem; 
+}
+
 
 /*
 
