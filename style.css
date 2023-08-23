@@ -42,6 +42,7 @@ body {
 
 }
 
+
 a{
   text-decoration: none;
 }
@@ -454,10 +455,22 @@ nav ul
 nav a 
 {
   color: var(--primary-color);
+  border-bottom: 2px solid transparent; 
+  transition: border-bottom 0.3s ease;
+}
+
+nav a:hover 
+{
+  border-bottom: 2px solid var(--primary-color);
 }
 
 nav.scrolled a {
  color: white; 
+}
+
+nav.scrolled a:hover 
+{
+  border-bottom: 2px solid white;
 }
 
 nav .social-network
