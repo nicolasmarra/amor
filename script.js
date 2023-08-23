@@ -16,11 +16,15 @@ function headerScroll ()
     {
         
     if(scrollY != 0)
-        
+    {
         my_header.classList.add('scrolled')
-    else
+        my_menu.classList.add('scrolled')
+    }        
+    else{
+        
         my_header.classList.remove('scrolled')
-    
+        my_menu.classList.remove('scrolled')
+    }
     }
 }
 
