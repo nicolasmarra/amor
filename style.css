@@ -513,4 +513,25 @@ section#home #block
 
 /* --------- ABOUT US ------------ */
 
+section#about-us .wrapper
+{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  justify-content: space-around;
+  gap: 10rem;
+  align-items: center;
+  padding-block: 8rem;
+  padding-inline: 10rem;  
+}
+
+section#about-us .col-1
+{
+  order: 2;
+}
+
+
+/*
+
+*/
+
 }
